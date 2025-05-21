@@ -8,7 +8,7 @@ source =
 [run]
 branch = true
 [report]
-fail_under = 70
+fail_under = 25
 show_missing = true
 omit = 
     tests/

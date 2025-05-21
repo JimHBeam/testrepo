@@ -2,7 +2,7 @@
 
 [tool.poetry]
 name = "testrepo"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 authors = [ "JimHBeam <javrelh@gmail.com>" ]
 readme = "README.md"
@@ -17,7 +17,7 @@ scripts = { }
   priority = "primary"
 
   [tool.poetry.dependencies]
-  python = "^3.11"
+  python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 black = "*"
@@ -25,7 +25,7 @@ flake8 = "*"
 isort = "*"
 liccheck = "*"
 mypy = "*"
-projen = "0.92.6"
+projen = "*"
 pytest-cov = "*"
 pytest = "7.4.3"
 

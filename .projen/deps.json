@@ -27,7 +27,7 @@
     },
     {
       "name": "projen",
-      "version": "0.92.6",
+      "version": "*",
       "type": "devenv"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "python",
-      "version": "^3.11",
+      "version": "^3.12",
       "type": "runtime"
     },
     {

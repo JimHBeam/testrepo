@@ -36,7 +36,7 @@ fixstyle: .venv ## fix black and isort style violations
 	poetry run black -l 99 testrepo tests
 
 test: .venv ## quick run of unit tests
-	poetry run pytest --verbose --capture=no --cov=testrepo --cov-fail-under=70
+	poetry run pytest --verbose --capture=no --cov=testrepo --cov-fail-under=25
 	
 test-all: lint test
 

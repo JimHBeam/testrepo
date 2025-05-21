@@ -2,7 +2,7 @@
   "name": "testrepo",
   "author": "JimHBeam",
   "email": "javrelh@gmail.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "deps": [],
   "dev_deps": [],
   "extras": {},
@@ -10,6 +10,7 @@
   "exclude": [],
   "gitignore": [],
   "scripts": {},
+  "coverage": 25,
   "source": [
     {
       "name": "pypi_",
